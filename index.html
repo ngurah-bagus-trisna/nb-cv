@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Learn Tailwind</title>
+</head>
+<body >
+    <header class="h-screen bg-white">
+        <nav class="container mx-auto p-3 flex justify-between">
+            <img src="./img/logo-dark.png" alt="logo" class="h-20 w-20 flex-none">
+            <div class="flex w-auto order-1 ">
+                <ul class="flex flex-row space-x-8 mt-7">
+                    <li class="block font-normal hover:font-medium"><a href="#">Home</a></li>
+                    <li class="block font-normal hover:font-medium"><a href="#">About</a></li>
+                    <li class="block font-normal hover:font-medium"><a href="#">Linkedin</a></li>
+                    <li class="block font-normal hover:font-medium"><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mx-auto p-3 grid grid-cols-2 grid-rows-2">
+            <div class="jumbroton grid-start-1 grid-end-2 row-start-1">
+                <div class="w-40 z-0 top-64 right-16 h-40 rounded-full relative bg-cyan-100 "></div>
+                <h1 class="relative z-1 text-6xl font-medium pt-40">I Gusti Ngurah Bagus<br>Trisna Andika</h1>
+                <h3 class="text-2xl font-light pt-2 col-start-1 col-end-1 row-start-2 row-end-3">Cloud Engineer | IT Entushiast</h3>
+            </div>
+        </div>
+    </header>
+    <div class=" bg-slate-900  h-[600px] text-white">
+        <section id="aboutme" class="container mx-auto py-20 grid grid-cols-2 grid-rows-[150px_1fr] gap-x-36 gap-y-10 ">
+            <h2 class="font-bold text-8xl col-start-1 col-end-2 row-start-1 row-end-2 relative top-3 right-3 text-gray-700">About Me</h2>
+            <h2 class="font-bold text-8xl col-start-1 col-end-2 row-start-1 row-end-2 relative z-1">About Me</h2>
+
+            <p class="row-start-2 row-end-3 col-start-1 col-end-2 pl-28 text-lg">
+                "Experienced Cloud Engineer with two years of work in supporting and managing Kubernetes infrastructure for a bank in Indonesia. Skilled in using open-source tools and committed to ongoing learning in IT and cloud technology. Currently interested DevOps role, bringing my expertise in cloud management and dedication to staying updated with the latest trends."
+            </p>
+            <img src="./img/foto.jpg" alt="foto-ngurahbagus" class="col-start-2 col-end-3 row-start-2 row-end-3 content-center justify-self-center rounded-full h-[500px] w-[500px] relative bottom-[215px] z-10">
+            <div class="rounded-full w-[500px] h-[500px] bg-[#5C469C] relative -z-1 col-start-2 col-end-3 row-start-2 row-end-3 left-28 bottom-[219px]"></div>
+        </section>
+    </div>
+    <section id="work-experience" class="grid grid-rows-[80px_auto_auto] grid-cols-[800px_auto] container mx-auto py-20 gap-10 gap-x-20">
+        <h1 id="experience" class="col-start-1 col-end-2 text-4xl  font-medium">Experience</h2>
+
+        <article id="boer-technology" class="col-start-1 col-end-2 row-start-2 row-end-3 w-[80%] mx-auto">
+            <h2 class="text-2xl font-medium pb-2">Cloud Enginner</h2> 
+            <hr>
+            <h3 class="text-xl font-thin pt-1">Boer Technology | 2022 - Now</h3>
+            <p>
+                Working as a Cloud Engineer support at a Bank, responsible for daily administration of Kubernetes infrastructure
+            </p>
+            <h2 class="text-lg font-medium">Skills :</h2>
+            <ul class="list-disc list-inside">
+                <li>Ensuring system security, scalability, and availability</li>
+                <li>Managing and monitoring cloud-based systems</li>
+                <li>Research and skill development to stay up to date with new technologieA</li>
+                <li>Experience with setting up, configuring, and managing Kubernetes clusters and resources</li>
+                <li>Experience with Creating High Availability Kubernetes Clusters</li>
+            </ul>
+            <div class="pt-5 flex gap-2 flex-wrap">
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Grafana</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Prometheus</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Kubernetes</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Openstack</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">KVM</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Linux</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Microservices</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Team Work</a>
+            </div>
+        </article>
+        <div class="col-start-2 col-end-3 row-start-2 row-end-3 content-center justify-self-center" id="boer">
+            <img src="https://tesbayar.btech.id/static/images/logo_btech.png" alt="logo-boer-technology" class="relative h-[400px] w-auto  ">
+        </div>
+        <article id="biznet" class="col-start-1 col-end-2 row-start-3 row-end-4 mx-auto w-[80%]">
+            <h2 class="text-2xl font-medium pb-2">Network Enginner</h2>
+            <hr>
+            <h3 class="text-xl font-thin pt-1">Biznet (PT. Supra Primatama Nusantara) | 2021</h3>
+            <p> Gained experience working as a team, taking the initiative in problem-solving, and analyzing troubleshooting skills. Obtained positions in the company as Network Operational Access (NOA) and Network Operational Distribution (NOD) <br> 
+            </p>
+            <h2 class="text-lg font-medium">Achievements: ̧</h2>
+            <ul class="list-disc list-inside">
+                <li>Completed troubleshooting and installing fiber optic networks for over 100 customers as an NOA.</li>
+                <li>Assisted in the regular maintenance of fiber optic cables, drop points troubleshooting, and monitoring of infrastructure as a NOD.</li>
+            </ul>
+            <div class="pt-5 flex gap-2 flex-wrap">
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Networking</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Mikrotik</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Fiber Optic</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Cisco</a>
+                <a href="" class=" px-5 py-2 bg-[#0F044C] hover:bg-[#5C469C] hover:text-white text-[#D9D9D9] shadow-md rounded-full ">Team Work</a>
+            </div>
+        </article>
+        <div class="col-start-2 col-end-3 row-start-3 row-end-4 content-center justify-self-center" id="boer">
+            <img src="https://www.biznetnetworks.com/assets/list-logo/logo-large/biznet_logo-horizontal-fullcolor.jpg" alt="logo-biznet-network" class="relative h-[200px] w-auto right-7 top-3">
+        </div>
+        <h1 id="experience" class="text-gray-200 text-[160px] transform -rotate-90 relative right-[1400px] top-[470px] font-medium">Experience</h2>
+    </section>
+    
+</body>
+</html>
